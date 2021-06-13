@@ -1,0 +1,80 @@
+.Container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: var(--primary);
+}
+
+.ContainerContent {
+  padding: 0 3rem;
+}
+
+.ContainerTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem 6rem;
+
+  > h2 > p {
+    font-size: 1.6em;
+    line-height: 1.5em;
+    color: var(--text-primary);
+    text-align: center;
+  }
+}
+
+.ContainerItens {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  flex-direction: row;
+  height: 100%;
+  flex-wrap: wrap;
+}
+
+.ContainerItem {
+  width: 30%;
+  height: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  @media (max-width: 870px) {
+    width: 45%;
+  }
+
+  @media (max-width: 570px) {
+    width: 90%;
+  }
+}
+
+.ContainerCard {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  /* box-shadow: ${props => props.theme.color.boxShadow}; */
+}
+
+.StyledImage {
+  border-radius: 12px;
+  max-width: 100%;
+}
+
+.CardBody {
+  padding: 1rem 1rem;
+  > h4 {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: var(--white);
+    text-align: center;
+    padding-top: 1rem;
+  }
+
+  > p {
+    font-size: 1em;
+
+    color: var(--text-primary);
+    text-align: justify;
+    padding-top: 1rem;
+  }
+}

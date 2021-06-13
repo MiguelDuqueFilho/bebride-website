@@ -1,0 +1,104 @@
+// import imgCatLi from '/imgmodels/cat_li.png';
+// import imgFootBg from '/imgmodels/foot_bg.jpg';
+
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 2rem 0;
+  background-color: var(--black);
+}
+
+.FooterWrap {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: row;
+  width: 80%;
+
+  @media (max-width: 870px) {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+  }
+
+  @media (max-width: 570px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.WrapContainer {
+  position: relative;
+  padding-top: 2rem;
+  > a {
+    color: var(--light);
+  }
+
+  > ul {
+    list-style: none;
+  }
+
+  > ul > li {
+    padding: 5px 0 5px 10px;
+  }
+
+  > ul > li > a {
+    text-decoration: none;
+    color: var(--light);
+    &:hover {
+      color: var(--linkHover);
+    }
+  }
+
+  > ul > li > p {
+    color: var(--light);
+    > span {
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 0.9rem;
+    }
+  }
+}
+/* background: url(${imgCatLi}) no-repeat left; */
+
+.Foot {
+  font-size: 14px;
+
+  color: var(--text);
+  text-transform: uppercase;
+  position: relative;
+}
+/* background: url(${imgFootBg}) repeat; */
+
+.FootWrap {
+  margin: 0 auto;
+  text-align: center;
+  padding: 35px 0;
+
+  > a {
+    color: var(--light);
+  }
+}
+
+.FooterTitle {
+  color: var(--light);
+  font-size: 24px;
+  padding: 0 0 18px 0;
+  display: block;
+  > a {
+    color: var(--light);
+  }
+  > a:hover {
+    text-decoration: none;
+  }
+}
+
+.Clear {
+  clear: both;
+  line-height: 0;
+  height: 0;
+  font-size: 1px;
+}
