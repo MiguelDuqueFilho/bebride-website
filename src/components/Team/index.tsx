@@ -9,10 +9,12 @@ const Team: React.FC = () => {
     <div className={styles.container}>
       <div className={styles.ContainerContent}>
         <div className={styles.ContainerText}>
-          <h1>
-            Nós gostamos de pessoas e gostamos de histórias de amor...
-            <FaHeart size={28} />
-          </h1>
+          <h2>
+            <p>
+              Nós gostamos de pessoas e gostamos de histórias de amor...
+              <FaHeart size={24} />
+            </p>{' '}
+          </h2>
         </div>
         <div className={styles.ContainerTeam}>
           <div className={styles.ContainerTeamImag}>

@@ -65,18 +65,18 @@
 /* background: url(${imgCatLi}) no-repeat left; */
 
 .Foot {
-  font-size: 14px;
+  font-size: 0.8rem;
 
   color: var(--text);
   text-transform: uppercase;
   position: relative;
+  background: url('/images/foot_bg.jpg') repeat;
 }
-/* background: url(${imgFootBg}) repeat; */
 
 .FootWrap {
   margin: 0 auto;
   text-align: center;
-  padding: 35px 0;
+  padding: 15px 0;
 
   > a {
     color: var(--light);

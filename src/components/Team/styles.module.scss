@@ -20,15 +20,31 @@
 }
 
 .ContainerText {
-  width: 100%;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
-  justify-items: center;
-  align-content: center;
-  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  > h2 {
+    text-align: start;
+    @media (max-width: 870px) {
+      text-align: center;
+    }
+    > p {
+      margin: 2rem 6rem;
+      font-size: 2.5rem;
+      line-height: 2.5rem;
+      color: var(--primary);
+      text-align: center;
+      @media (max-width: 870px) {
+        font-size: 2rem;
+        margin: 2rem 4rem;
+      }
 
-  > h1 {
-    color: var(--purple-300);
+      @media (max-width: 570px) {
+        margin: 2rem 2rem;
+      }
+    }
   }
 }
 

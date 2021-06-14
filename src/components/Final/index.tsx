@@ -7,8 +7,8 @@ const Final: React.FC = () => {
     <div className={styles.Container}>
       <div className={styles.ContainerTitle}>
         <h2>
-          <span>SEU CASAMENTO É ÚNICO E TEM QUE SER PERFEITO</span>
-          <p>Vamos juntas?</p>
+          <p>Seu casamento é Único e tem que ser Perfeito</p>
+          <span>Vamos juntas?</span>
         </h2>
         <div className={styles.TeamSocial}>
           <a
@@ -28,11 +28,12 @@ const Final: React.FC = () => {
           </a>
         </div>
         <Image
-          width={800}
-          height={323}
+          width={600}
+          height={250}
           className={styles.LogoImage}
           src='/images/LogoBeBride3hand.png'
           alt='logo BeBride'
+          objectFit='cover'
         />
       </div>
     </div>

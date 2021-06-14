@@ -10,6 +10,26 @@
   }
 }
 
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 55%;
+  left: 54%;
+  color: var(--text-primary);
+  transform: translate(-50%, -50%);
+  font-family: 'romantisch', serif;
+  font-size: 2rem;
+  font-weight: 900;
+
+  @media screen and (max-width: 768px) {
+    font-size: 0.8rem;
+  }
+
+  @media screen and (max-width: 1024px) {
+    font-size: 1.2rem;
+  }
+}
+
 /* Bottom left text */
 // .bottom_left {
 //   position: absolute;
@@ -41,23 +61,3 @@
 //   right: 16px;
 //   color: var(--text-primary);
 // }
-
-/* Centered text */
-.centered {
-  position: absolute;
-  top: 55%;
-  left: 54%;
-  color: var(--text-primary);
-  transform: translate(-50%, -50%);
-  font-family: 'romantisch', serif;
-  font-size: 2rem;
-  font-weight: 900;
-
-  @media screen and (max-width: 768px) {
-    font-size: 0.8rem;
-  }
-
-  @media screen and (max-width: 1024px) {
-    font-size: 1.2rem;
-  }
-}

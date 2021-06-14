@@ -93,7 +93,7 @@ const Footer: React.FC = () => {
       </div>
       <div className={styles.Foot}>
         <div className={styles.FootWrap}>
-          MDuque &copy; 2021
+          MDuque &copy;2021
           {/* <a href="#">MDUQUE</a> */}
         </div>
       </div>

@@ -32,22 +32,15 @@
   font-family: 'Cormorant Garamond', serif;
   > h2 {
     text-align: start;
-    font-size: 1.7em;
-    @media (max-width: 870px) {
-      text-align: center;
-      font-size: 1.8em;
-    }
+
     > p {
       margin: 2rem 6rem;
-      font-size: 1.6em;
-      line-height: 1.5em;
-      color: var(--purple-300);
-
+      font-size: 2.5rem;
+      line-height: 2.5rem;
+      color: var(--primary);
       text-align: center;
       @media (max-width: 870px) {
-        font-size: 1.6em;
-        line-height: 1.5em;
-        padding-left: 0;
+        font-size: 2rem;
         margin: 2rem 4rem;
       }
 
@@ -72,9 +65,9 @@
   font-family: 'romantisch', serif;
   font-size: 1.6rem;
   font-weight: 400;
-  color: var(--purple-500);
+  color: var(--primary);
   border-radius: 49px;
-  background-color: var(--purple-800);
+  background-color: var(--primary-transparent);
   color: var(--white);
   text-decoration: none;
   transition: 0.3s;
@@ -88,6 +81,6 @@
   }
 
   &:hover {
-    background-color: var(--purple-300);
+    background-color: var(--primary);
   }
 }

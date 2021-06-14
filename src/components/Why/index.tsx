@@ -15,7 +15,7 @@ const Why: React.FC = () => {
       <div className={styles.ContainerWhyTitle}>
         <h2>
           <p>
-            Por que nos contratar? <FaHeart size={28} />
+            Por que nos contratar? <FaHeart size={24} />
           </p>
         </h2>
 

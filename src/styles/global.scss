@@ -19,10 +19,8 @@
 }
 
 :root {
-  --menu: rgb(65, 59, 59);
-  --menu-transparent: rgba(65, 59, 59, 0.6);
-  --primary: rgb(145, 100, 250);
-  --primary-transparent: rgba(145, 100, 250, 0.6);
+  --primary: rgb(133, 74, 191);
+  --primary-transparent: rgba(133, 74, 191, 0.4);
   --text-primary: rgb(233, 233, 233);
 
   --bebride-color: '#c7bfe6';
@@ -40,9 +38,4 @@
   --gray-800: #494d4b;
 
   --green-500: #04d361;
-
-  --purple-300: #9f75ff;
-  --purple-400: #9164fa;
-  --purple-500: #8257e5;
-  --purple-800: #6f48c9;
 }

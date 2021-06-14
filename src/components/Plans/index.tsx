@@ -29,7 +29,7 @@ function Plans({ items }: Props) {
           <h2>
             <p>
               Noiva tranquila é noiva organizada.{' '}
-              <FaHeart size={28} className='text-primary' />
+              <FaHeart size={24} className='text-primary' />
             </p>
           </h2>
           <span>
